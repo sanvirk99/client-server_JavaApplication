@@ -1,0 +1,32 @@
+
+#curl commands executed via MobaXterm Terminal but developed on Windows using Dr Brain Fraser technique
+
+#ping
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/ping
+
+
+#List: all items, list expired , list not expired , expiring in 7 days
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/listAll
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/listExpired
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/listNotExpired
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/listExpiringIn7Days
+
+#Add items: example given of structure
+curl -i -H "Content-Type: application/json" -X POST -d '{
+        "type": "Drink",
+        "name": "Milk",
+        "notes": "White",
+        "price": 1.0,
+        "quantity": 100,
+        "date": "2010-10-02"
+    }' localhost:8080/addItem
+
+#Remove item: items specify index, if index is out of bounds original list will be returned
+curl -i -H "Content-Type: application/json" -X POST -d '{
+        "index": 0
+    }' localhost:8080/removeItem
+
+#exit: save session list to json file
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/exit
+
+

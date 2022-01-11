@@ -1,0 +1,53 @@
+
+
+To help user explore the functionally random list of consumable items is preloaded
+each item having random attributes
+
+1.View functionality of list of items
+
+    Screen titled items tracker will appear listing all items when application is run.
+    This screen has 5 buttons of which 4 titled -> All,Expired,Not Expired ,Expiring in 7 days
+    lead to change in the list of items appearing under consumable items
+
+    Size can be adjusted by user it will automatically determine if scrollbar is required based on screen real-estate
+    to show items and also the placement of all buttons and object in the window
+
+    If for example user enters really long strings horizontal and vertical bars will appear to navigate. Very robust
+
+    if no items to show txt indicating no item to show which every category selected
+
+    When any list button is pressed current list snapshot will be updated with list in server
+
+2.Remove functionality
+
+    Each item under the consumable items list Has attached to it a remove button to the right of the description in its panel
+    if horizontal scroll bar appears, this indicates some items have long description so use this to navigate to remove button of items
+
+    When Remove button associated with item is pressed it will update the list
+    -visual change will occur in all the list of items removed item will no longer be visible items will be re-numbered
+    -user will be prompted the item is removed when button is clicked
+
+
+3.Add functionality
+
+    When Add item button is presses new dialog window tittles add item will be generated and main frame view is changed to list all items
+    to help user see all items in storage
+
+    Main frame runs simultaneously along the add item dialog frame
+    updates list after every valid addition of item can be used to see all the items
+
+
+    Multiple Add item dialogs are prevented for clutter-free environment
+    So when Add item button is clicked new window with blank field will appear and old will be closed
+    You can add items by filling in all the required fields user will be promoted to fix any invalid inputs
+    and clicking add button
+
+
+    if valid input and add is clicked
+     -visual change will occur in all the list of items item will be visible
+     -user will be prompted items is added
+
+
+
+
+

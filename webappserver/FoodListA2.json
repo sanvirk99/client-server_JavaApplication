@@ -1,0 +1,137 @@
+[
+  {
+    "type": "Drink",
+    "name": "Milk",
+    "notes": "White",
+    "price": 1.0,
+    "quantity": 100.0,
+    "expiryDays": -4106,
+    "expiryDate": "2010-10-02"
+  },
+  {
+    "type": "Drink",
+    "name": "milk",
+    "notes": "white",
+    "price": 1.0,
+    "quantity": 100.0,
+    "expiryDays": -2096,
+    "expiryDate": "2016-04-03"
+  },
+  {
+    "type": "Drink",
+    "name": "water",
+    "notes": "juicy",
+    "price": 1.0,
+    "quantity": 1000.0,
+    "expiryDays": -1166,
+    "expiryDate": "2018-10-20"
+  },
+  {
+    "type": "Food",
+    "name": "cookie",
+    "notes": "soft",
+    "price": 1.0,
+    "quantity": 1000.0,
+    "expiryDays": -131,
+    "expiryDate": "2021-08-20"
+  },
+  {
+    "type": "Food",
+    "name": "Penut Butter Cookies",
+    "notes": "Contains Nuts",
+    "price": 4.0,
+    "quantity": 1000.0,
+    "expiryDays": -101,
+    "expiryDate": "2021-09-19"
+  },
+  {
+    "type": "Food",
+    "name": "burger",
+    "notes": "juicy",
+    "price": 1.0,
+    "quantity": 1000.0,
+    "expiryDays": -89,
+    "expiryDate": "2021-10-01"
+  },
+  {
+    "type": "Food",
+    "name": "ss",
+    "notes": "ss",
+    "price": 33.0,
+    "quantity": 33.0,
+    "expiryDays": -88,
+    "expiryDate": "2021-10-02"
+  },
+  {
+    "type": "Drink",
+    "name": "coke",
+    "notes": "fdsf",
+    "price": 22.0,
+    "quantity": 1000.0,
+    "expiryDays": -70,
+    "expiryDate": "2021-10-20"
+  },
+  {
+    "type": "Drink",
+    "name": "coke",
+    "notes": "fddf",
+    "price": 1.0,
+    "quantity": 1.0,
+    "expiryDays": -62,
+    "expiryDate": "2021-10-28"
+  },
+  {
+    "type": "Food",
+    "name": "ddd",
+    "notes": "dd",
+    "price": 20.0,
+    "quantity": 2.0,
+    "expiryDays": -61,
+    "expiryDate": "2021-10-29"
+  },
+  {
+    "type": "Food",
+    "name": "werwe",
+    "notes": "ger",
+    "price": 2.0,
+    "quantity": 2.0,
+    "expiryDays": -60,
+    "expiryDate": "2021-10-30"
+  },
+  {
+    "type": "Food",
+    "name": "Coke",
+    "notes": "frizzy",
+    "price": 150.0,
+    "quantity": 1.0,
+    "expiryDays": -47,
+    "expiryDate": "2021-11-12"
+  },
+  {
+    "type": "Food",
+    "name": "Chips",
+    "notes": "crunchy",
+    "price": 66.0,
+    "quantity": 55.0,
+    "expiryDays": -44,
+    "expiryDate": "2021-11-15"
+  },
+  {
+    "type": "Food",
+    "name": "biscuit",
+    "notes": "crunchy",
+    "price": 1.0,
+    "quantity": 2.0,
+    "expiryDays": -25,
+    "expiryDate": "2021-12-04"
+  },
+  {
+    "type": "Drink",
+    "name": "slurp",
+    "notes": "1 and 300",
+    "price": 1.0,
+    "quantity": 300.0,
+    "expiryDays": 1434,
+    "expiryDate": "2025-12-02"
+  }
+]
